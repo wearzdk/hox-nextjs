@@ -20,6 +20,9 @@ export const HoxRoot: FC<PropsWithChildren<{}>> = props => {
     },
     () => {
       return globalExecutors
+    },
+    () => {
+      return globalExecutors
     }
   )
   return (

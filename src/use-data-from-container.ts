@@ -31,6 +31,7 @@ export function useDataFromContainer<T, P>(
         container.subscribers.delete(subscribe)
       }
     },
+    () => container.data,
     () => container.data
   )
 }
